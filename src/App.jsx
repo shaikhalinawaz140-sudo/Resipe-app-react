@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import RecipeDetail from "./pages/RecipeDetail";
+import RecipeDetail from "./My components/RecipeDetail.jsx";
 import Header from './My components/Header'
 import Search from './My components/Search.jsx';
-import RecipeCard from './My components/RecipeCard';
+import RecipeCard from './My components/RecipeCard.jsx';
 import RecipeList from './My components/ReciprList';
-import Contact from './My components/Contact';
-import About from './My components/About';
+import Contact from './pages/Contact.jsx';
+import About from './pages/About.jsx';
 import './index.css';
 
 const App = () => {

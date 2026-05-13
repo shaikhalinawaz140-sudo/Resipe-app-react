@@ -1,7 +1,7 @@
 import React, { useEffect, useState} from 'react'
 import axios from "axios";
 import {Link} from "react-router-dom";
-import Contact from '../My components/Contact';
+import Contact from './Contact';
 
 const Home = () => {
     const[ recipes, setReacipes] = useState([]);
